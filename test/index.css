@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0E67B4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo-container {
+    display: inline-block;
+    width: 25%;
+}
+
+.logo-container img {
+    width: 150px;
+}
+
+.list-container {
+    display: inline-block;
+    width: 70%;
+    margin-right: 30px;
+}
+
+.list-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-item a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.list-item a:hover {
+    color: #0E67B4;
+    border-bottom: 1px solid #F79B26;
+}
+
+.main {
+    position: absolute;
+    top: 70px;
+}
+
+.button {
+    display: inline-block;
+}
+
+.product-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.circle {
+    width: 13px;
+    height: 13px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#btn-1 {
+    background: green;
+}
+
+#btn-2 {
+    background: red;
+}
+
+#btn-3 {
+    background: blue;
+}
+
+#btn-4 {
+    background: gray;
+}
+
+#btn-5 {
+    background: yellow;
+}
+
+#btn-6 {
+    background: purple;
+}
+
+#btn-7 {
+    background: orangered;
+}
+
+#btn-8 {
+    background: pink;
+}
+
+#c1 {
+    background: black;
+}
